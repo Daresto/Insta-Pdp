@@ -8,12 +8,12 @@
 import Foundation
 
 class Post{
-    var fullname = ""
+    var post2_img = ""
     var user_img = ""
     var post_img = ""
     
-    init(fullname: String, user_img: String, post_img: String){
-        self.fullname = fullname
+    init(post2_img: String, user_img: String, post_img: String){
+        self.post2_img = post2_img
         self.user_img = user_img
         self.post_img = post_img
     }

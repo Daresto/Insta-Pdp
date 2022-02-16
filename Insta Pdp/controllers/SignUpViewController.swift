@@ -30,8 +30,10 @@ class SignUpViewController: BaseViewController, UITableViewDelegate, UITableView
         setNavBar()
         
         
-        items.append(Post(fullname: "Obama", user_img: "im_person1", post_img: "im_post1"))
-        items.append(Post(fullname: "Gugusha", user_img: "im_person2", post_img: "im_post2"))
+        items.append(Post(post2_img: "im_post2", user_img: "im_person1", post_img: "im_post1"))
+        items.append(Post(post2_img: "im_post2", user_img: "im_person1", post_img: "im_post1"))
+        items.append(Post(post2_img: "im_post2", user_img: "im_person1", post_img: "im_post1"))
+        
         
         
     }
@@ -69,13 +71,20 @@ class SignUpViewController: BaseViewController, UITableViewDelegate, UITableView
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let item = items[indexPath.row]
         
-        let cell = Bundle.main.loadNibNamed("PostTableViewCell", owner: self, options: nil)? .first as! PostTableViewCell
+        let cell = Bundle.main.loadNibNamed("NewTableViewCell", owner: self, options: nil)? .first as! NewTableViewCell
+        cell.user_img.layer.cornerRadius = cell.user_img.frame.size.width/2
+        
+        cell.user_img.image = UIImage(named: item.user_img)
+        cell.post1_img.image = UIImage(named: item.post_img)
+        cell.post2_img.image = UIImage(named: item.post2_img)
+
+        
         
         return cell
     }
 
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 200
+        return 600
     }
     
     

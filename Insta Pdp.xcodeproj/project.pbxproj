@@ -23,6 +23,8 @@
 		39441FCE27B510AE00D9EE8B /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39441FCC27B510AE00D9EE8B /* SignInViewController.xib */; };
 		39441FD127B5233400D9EE8B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39441FCF27B5233400D9EE8B /* SignUpViewController.swift */; };
 		39441FD227B5233400D9EE8B /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39441FD027B5233400D9EE8B /* SignUpViewController.xib */; };
+		394BAD4327BD2B5500133EC4 /* NewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BAD4127BD2B5500133EC4 /* NewTableViewCell.swift */; };
+		394BAD4427BD2B5500133EC4 /* NewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 394BAD4227BD2B5500133EC4 /* NewTableViewCell.xib */; };
 		39D6558827B7F665009C2BB5 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D6558727B7F665009C2BB5 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		39441FCC27B510AE00D9EE8B /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
 		39441FCF27B5233400D9EE8B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		39441FD027B5233400D9EE8B /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		394BAD4127BD2B5500133EC4 /* NewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewCell.swift; sourceTree = "<group>"; };
+		394BAD4227BD2B5500133EC4 /* NewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewTableViewCell.xib; sourceTree = "<group>"; };
 		39D6558727B7F665009C2BB5 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +76,8 @@
 			children = (
 				3943039727BC0EE0005CE16F /* PostTableViewCell.swift */,
 				3943039827BC0EE0005CE16F /* PostTableViewCell.xib */,
+				394BAD4127BD2B5500133EC4 /* NewTableViewCell.swift */,
+				394BAD4227BD2B5500133EC4 /* NewTableViewCell.xib */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -192,6 +198,7 @@
 			files = (
 				39441FCE27B510AE00D9EE8B /* SignInViewController.xib in Resources */,
 				39441FBE27B50DFE00D9EE8B /* LaunchScreen.storyboard in Resources */,
+				394BAD4427BD2B5500133EC4 /* NewTableViewCell.xib in Resources */,
 				39441FBB27B50DFE00D9EE8B /* Assets.xcassets in Resources */,
 				39441FB627B50DFD00D9EE8B /* Main.storyboard in Resources */,
 				3943039A27BC0EE0005CE16F /* PostTableViewCell.xib in Resources */,
@@ -210,6 +217,7 @@
 				39441FC827B50E2000D9EE8B /* HomeViewController.swift in Sources */,
 				39441FD127B5233400D9EE8B /* SignUpViewController.swift in Sources */,
 				39441FB927B50DFD00D9EE8B /* Insta_Pdp.xcdatamodeld in Sources */,
+				394BAD4327BD2B5500133EC4 /* NewTableViewCell.swift in Sources */,
 				39441FCD27B510AE00D9EE8B /* SignInViewController.swift in Sources */,
 				39441FB327B50DFD00D9EE8B /* ViewController.swift in Sources */,
 				39D6558827B7F665009C2BB5 /* BaseViewController.swift in Sources */,

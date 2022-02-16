@@ -1,21 +1,17 @@
 //
-//  PostTableViewCell.swift
+//  NewTableViewCell.swift
 //  Insta Pdp
 //
-//  Created by  Abdurahmon on 15/02/22.
+//  Created by  Abdurahmon on 16/02/22.
 //
 
 import UIKit
 
-class PostTableViewCell: UITableViewCell {
+class NewTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var postImage: UIImageView!
-    @IBOutlet weak var fullname: UILabel!
-    @IBOutlet weak var Post: UIImageView!
-    
-    
-    
-    
+    @IBOutlet weak var user_img: UIImageView!
+    @IBOutlet weak var post1_img: UIImageView!
+    @IBOutlet weak var post2_img: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
