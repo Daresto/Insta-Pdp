@@ -34,10 +34,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     func callSignController(){
         let vc = SignUpViewController(nibName: "SignUpViewController", bundle: nil)
+        let nc = UINavigationController(rootViewController: vc)
         if self.window == nil{
             self.window = UIWindow(frame: UIScreen.main.bounds)
         }
-        self.window?.rootViewController = vc
+        self.window?.rootViewController = nc
         self.window?.makeKeyAndVisible()
     }
 

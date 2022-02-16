@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3943039527BC0CE0005CE16F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3943039427BC0CE0005CE16F /* Post.swift */; };
+		3943039927BC0EE0005CE16F /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3943039727BC0EE0005CE16F /* PostTableViewCell.swift */; };
+		3943039A27BC0EE0005CE16F /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3943039827BC0EE0005CE16F /* PostTableViewCell.xib */; };
 		39441FAF27B50DFD00D9EE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39441FAE27B50DFD00D9EE8B /* AppDelegate.swift */; };
 		39441FB127B50DFD00D9EE8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39441FB027B50DFD00D9EE8B /* SceneDelegate.swift */; };
 		39441FB327B50DFD00D9EE8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39441FB227B50DFD00D9EE8B /* ViewController.swift */; };
@@ -24,6 +27,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3943039427BC0CE0005CE16F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		3943039727BC0EE0005CE16F /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		3943039827BC0EE0005CE16F /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		39441FAB27B50DFD00D9EE8B /* Insta Pdp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Insta Pdp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39441FAE27B50DFD00D9EE8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39441FB027B50DFD00D9EE8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +59,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3943039327BC0CCB005CE16F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3943039427BC0CE0005CE16F /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3943039627BC0EA8005CE16F /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				3943039727BC0EE0005CE16F /* PostTableViewCell.swift */,
+				3943039827BC0EE0005CE16F /* PostTableViewCell.xib */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 		39441FA227B50DFD00D9EE8B = {
 			isa = PBXGroup;
 			children = (
@@ -72,11 +95,13 @@
 		39441FAD27B50DFD00D9EE8B /* Insta Pdp */ = {
 			isa = PBXGroup;
 			children = (
+				3943039627BC0EA8005CE16F /* cells */,
+				3943039327BC0CCB005CE16F /* model */,
 				39441FC527B50E0D00D9EE8B /* controllers */,
+				39441FCA27B50E2900D9EE8B /* apputils */,
 				39441FAE27B50DFD00D9EE8B /* AppDelegate.swift */,
 				39441FB027B50DFD00D9EE8B /* SceneDelegate.swift */,
 				39441FBF27B50DFE00D9EE8B /* Info.plist */,
-				39441FCA27B50E2900D9EE8B /* apputils */,
 			);
 			path = "Insta Pdp";
 			sourceTree = "<group>";
@@ -169,6 +194,7 @@
 				39441FBE27B50DFE00D9EE8B /* LaunchScreen.storyboard in Resources */,
 				39441FBB27B50DFE00D9EE8B /* Assets.xcassets in Resources */,
 				39441FB627B50DFD00D9EE8B /* Main.storyboard in Resources */,
+				3943039A27BC0EE0005CE16F /* PostTableViewCell.xib in Resources */,
 				39441FD227B5233400D9EE8B /* SignUpViewController.xib in Resources */,
 				39441FC927B50E2000D9EE8B /* HomeViewController.xib in Resources */,
 			);
@@ -187,6 +213,8 @@
 				39441FCD27B510AE00D9EE8B /* SignInViewController.swift in Sources */,
 				39441FB327B50DFD00D9EE8B /* ViewController.swift in Sources */,
 				39D6558827B7F665009C2BB5 /* BaseViewController.swift in Sources */,
+				3943039527BC0CE0005CE16F /* Post.swift in Sources */,
+				3943039927BC0EE0005CE16F /* PostTableViewCell.swift in Sources */,
 				39441FAF27B50DFD00D9EE8B /* AppDelegate.swift in Sources */,
 				39441FB127B50DFD00D9EE8B /* SceneDelegate.swift in Sources */,
 			);
